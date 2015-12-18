@@ -1,12 +1,22 @@
-$body-bg:  #3498db;
-$navbar-inverse-bg: #2980b9;
-$navbar-inverse-link-color: white;
-$brand-primary: #e74c3c;
-$jumbotron-heading-color: #f1c40f;
-$jumbotron-bg: #ecf0f1;
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
 
+$body-bg:                        #3498db;
+$navbar-height:                    45px;
+$navbar-inverse-bg:              #2980b9;
+$font-family-sans-serif:         'Roboto', sans-serif;
+$navbar-inverse-link-color:      white;
+$brand-primary:                  #e74c3c;
+$jumbotron-heading-color:        #f1c40f;
+$jumbotron-bg:                   #ecf0f1;
 
-
-
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+.center {
+	 tex-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
